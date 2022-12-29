@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <button onclick="Eyeopen()" style="background-color:green; font-size: 20px;" >Open Eye</button>
+
+     <img src="./close.png" alt="Eyeclose" height="250px" width="250px" id="img">
+
+     <button onclick="Eyeclose()" style="background-color: red; font-size: 20px" >Close Eye </button>
+   
+
+    <script>
+
+    //  function Eyeopen(){
+
+    //     document.getElementById('img').scr="./open.jpeg";
+    //  }
+
+    //  function Eyeclose(){
+
+    //      document.getElementById('img').src="./close.png";
+    //  }
+
+
+
+    function Eyeopen(){
+        document.getElementById('img').src="./open.png";
+        document.getElementById('img').style.boxShadow="10px 10px 8px black";
+        document.getElementById('img').style.height='80vh';
+        document.getElementById('img').style.width='80vw';
+    
+    }
+    
+    function Eyeclose(){
+
+        document.getElementById('img').src="./close.png";
+        document.getElementById('img').style.boxShadow="10px 10px 8px black";
+        document.getElementById('img').style.height='80vh';
+        document.getElementById('img').style.width='80vw';
+        
+    }
+    </script>
+</body>
+</html>
